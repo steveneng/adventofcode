@@ -6,6 +6,8 @@ let inputList:string[] = ele.split("\n")
 let current = inputList[0];
 let count = 0
 
+console.log(inputList)
+
 for(let i = 1 ; i<inputList.length; i++){
     if(inputList[i]>current){
         count++
