@@ -4,7 +4,8 @@
   "description": "\"# adventofcode\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,12 @@
   },
   "homepage": "https://github.com/steveneng/adventofcode#readme",
   "dependencies": {
-    "@types/node": "^16.11.11"
+    "@types/node": "^16.11.11",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   }
 }

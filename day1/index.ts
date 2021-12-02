@@ -1,6 +1,6 @@
-const fs = require('fs')
+import fs from "fs"
 
-let ele:string = fs.readFileSync(__dirname+'/input2.txt','utf8',)
+let ele:string = fs.readFileSync(`${__dirname}\\input2.txt`,'utf8',)
 let inputList:string[] = ele.split("\n")
 
 let current = inputList[0];
@@ -16,3 +16,4 @@ for(let i = 1 ; i<inputList.length; i++){
     }
 }
 
+console.log(count)
