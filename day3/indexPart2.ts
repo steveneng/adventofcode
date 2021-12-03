@@ -4,9 +4,6 @@ let binaryList: string[] = fs
   .readFileSync(`${__dirname}\\input.txt`, "utf-8")
   .split("\n");
 
-let epsilon: string[] = [];
-
-let gamma: string[] = [];
 let oneCount: number = 0;
 
 let refList = binaryList.slice(0);
